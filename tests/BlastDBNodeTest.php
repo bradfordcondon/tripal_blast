@@ -67,6 +67,8 @@ class BlastDBNodeTest extends TripalTestCase {
     $errors = form_get_errors();
     //print_r($errors);
 
+    var_dump($errors);
+    
     // Assert that there must not be any.
     $this->assertEmpty($errors);
 
